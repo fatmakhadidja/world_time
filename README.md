@@ -1,2 +1,2 @@
 # world_time
- Mobile app that allows to know the time in diffret areas in the world
+ Mobile application that allows to know the time in diffrent areas in the world.
