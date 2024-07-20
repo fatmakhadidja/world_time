@@ -21,16 +21,13 @@ class _HomeState extends State<Home> {
     print(data);
 
     // set background
-    String bgImage = data['isDaytime'] ? 'day.jpg' : 'night.jpg';
+    Color bgcolor = data['isDaytime'] ? Color(0xFF71AFC7) : Color(0xFF131638);
+
 
     return Scaffold(
+      backgroundColor: bgcolor,
       body: Container(
-        decoration: BoxDecoration(
-          image : DecorationImage(
-            image : AssetImage('assets/$bgImage'),
-            fit : BoxFit.cover,
-          ),
-        ),
+
         child: Padding(
           padding: const EdgeInsets.fromLTRB(0, 120, 0, 0),
           child: SafeArea(
