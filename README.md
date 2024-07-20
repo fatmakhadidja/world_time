@@ -1,5 +1,5 @@
 # world_time
-## Description :
+## Description of the application :
  Mobile application built using Flutter and a world time API,  the app allows to know the time in diffrent areas in the world.
 
 PS : 
