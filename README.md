@@ -1,8 +1,11 @@
 # world_time
+## Description :
  Mobile application built using Flutter and a world time API,  the app allows to know the time in diffrent areas in the world.
 
 PS : 
 - The files that contain the code for the application will be found in the 'lib' directory.
+
+# Demonstration :
 
  ## The first page encountered : 
  when the user first enters the mobile application he'll see a page displaying the time in Berlin ( Berlin is the default location ) :
